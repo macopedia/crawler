@@ -35,7 +35,7 @@ class tx_crawler_lib_testcase extends \TYPO3\CMS\Core\Tests\UnitTestCase {
 	/**
 	 * @var array
 	 */
-	protected $coreExtensionsToLoad = array('cms');
+	protected $coreExtensionsToLoad = array('cms', 'core', 'frontend', 'workspaces', 'version', 'lang', 'extensionmanager');
 
 	/**
 	 * @var array
